@@ -1,0 +1,19 @@
+.DS_Store
+.idea
+
+# Ignore bundler config.
+/node_modules
+
+# Ignore all logfiles and tempfiles.
+/logs/*.log
+/tmp
+
+/coverage
+
+# Ignore data directory with development/test artifacts
+/data
+
+# NPM
+npm-debug.log
+
+routes/index_sync.js

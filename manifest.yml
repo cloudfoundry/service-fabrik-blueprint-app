@@ -1,0 +1,8 @@
+---
+applications:
+- name: blueprint-app
+  command: node ./bin/server
+  memory: 256M
+  instances: 1
+  host: blueprint-app
+  path: .

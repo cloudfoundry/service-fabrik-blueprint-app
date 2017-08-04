@@ -1,0 +1,45 @@
+{
+  "name": "blueprint-app",
+  "version": "1.0.0",
+  "description": "An application for testing the blueprint-service provided by the Service Fabrik Broker.",
+  "license": "Apache-2.0",
+  "contributors": [
+    "Franzke, Rafael <rafael.franzke@sap.com>",
+    "Koser, Holger <holger.koser@sap.com>",
+    "Lerenc, Vedran <vedran.lerenc@sap.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SAP/service-fabrik-blueprint-app.git"
+  },
+  "dependencies": {
+    "bluebird": "~3.4.0",
+    "body-parser": "~1.13.2",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "chai-spies": "^0.7.1",
+    "cheerio": "~0.20.0",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "lodash": "~4.13.1",
+    "mocha": "~2.5.3",
+    "mochawesome": "~1.3.5",
+    "morgan": "~1.6.1",
+    "request-promise": "~3.0.0",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {
+    "js-beautify": "^1.6.3",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
+  },
+  "engines": {
+    "node": ">= 6.9.1"
+  },
+  "scripts": {
+    "start": "node ./bin/server",
+    "jshint": "jshint --exclude coverage,docs,node_modules,public  --reporter=node_modules/jshint-stylish .",
+    "jsformat": "js-beautify -r *.js -r lib/*.js -r routes/*.js -r test/**/*.js -r test/*.js"
+  }
+}
