@@ -15,8 +15,8 @@ Requirements
 
 ### Local Development Setup
 
-You would need a functional Bosh Lite setup on your local system [Reference](https://github.com/SAP/service-fabrik-broker#installing-bosh-lite)
-Working Cloud Foundry Installation on Bosh Lite [Reference](https://github.com/SAP/service-fabrik-broker#installing-cloud-foundry)
+- You would need a functional Bosh Lite setup on your local system. Please refer instructions [here](https://github.com/SAP/service-fabrik-broker#installing-bosh-lite)
+- Working Cloud Foundry Installation on Bosh Lite. Please refer instructions [here](https://github.com/SAP/service-fabrik-broker#installing-cloud-foundry)
 
 Usage
 -----
