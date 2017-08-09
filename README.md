@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application is used to perform simple HTTP requests to a bound blueprint-service.
+This application is used to perform simple HTTP requests to a bound [blueprint-service](https://github.com/sap/service-fabrik-blueprint-service).
 The intention is to check whether the blueprint-service is consumable regularly and fulfills its specification.
 Therefore, the HTTP responses will be evaluated and their correctness will be verified.
 
@@ -20,7 +20,7 @@ Clone the repository for Service Fabrik Blueprint App
 ```
 git clone https://github.com/sap/service-fabrik-blueprint-app
 ```
-This would clone the repository in your current working directory
+This would clone the repository in your current working directory.
 Then, run this code from the command line
 
 ```
