@@ -30,7 +30,7 @@ This would clone the repository in your current working directory
 Then, run this code from the command line
 
 ```
-cd blueprint-app/
+cd service-fabrik-blueprint-app/
 npm install
 cf push
 ```
