@@ -1,7 +1,7 @@
 Service-Fabrik-Blueprint-App
 =============
 
-Background
+Overview
 ----------
 
 ### What is Blueprint-App?
