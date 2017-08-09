@@ -1,25 +1,19 @@
-Service-Fabrik-Blueprint-App
-=============
+# Service Fabrik Blueprint App
 
-Overview
-----------
-
-### What is Blueprint-App?
+## Overview
 
 This application is used to perform simple HTTP requests to a bound blueprint-service.
 The intention is to check whether the blueprint-service is consumable regularly and fulfills its specification.
 Therefore, the HTTP responses will be evaluated and their correctness will be verified.
 
-Requirements
------
+## Requirements
 
-### Local Development Setup
+To try out the application locally,
 
 - You would need a functional Bosh Lite setup on your local system. Please refer instructions [here](https://github.com/SAP/service-fabrik-broker#installing-bosh-lite)
 - Working Cloud Foundry Installation on Bosh Lite. Please refer instructions [here](https://github.com/SAP/service-fabrik-broker#installing-cloud-foundry)
 
-Usage
------
+## Download and Installation
 
 Clone the repository for Service Fabrik Blueprint App
 
