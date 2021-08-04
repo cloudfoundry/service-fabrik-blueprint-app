@@ -13,7 +13,7 @@
     "url": "git://github.com/SAP/service-fabrik-blueprint-app.git"
   },
   "dependencies": {
-    "bluebird": "~3.4.0",
+    "bluebird": "~3.7.2",
     "body-parser": "~1.13.2",
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
