@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/SAP/service-fabrik-blueprint-app.git"
+    "url": "git://github.com/cloudfoundry/service-fabrik-blueprint-app.git"
   },
   "dependencies": {
     "bluebird": "~3.4.0",

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application is used to perform simple HTTP requests to a bound [blueprint-service](https://github.com/sap/service-fabrik-blueprint-service).
+This application is used to perform simple HTTP requests to a bound [blueprint-service](https://github.com/cloudfoundry/service-fabrik-blueprint-service).
 The intention is to check whether the blueprint-service is consumable regularly and fulfills its specification.
 Therefore, the HTTP responses will be evaluated and their correctness will be verified.
 
@@ -10,15 +10,15 @@ Therefore, the HTTP responses will be evaluated and their correctness will be ve
 
 To try out the application locally,
 
-- You would need a functional Bosh Lite setup on your local system. Please refer instructions [here](https://github.com/SAP/service-fabrik-broker#installing-bosh-lite)
-- Working Cloud Foundry Installation on Bosh Lite. Please refer instructions [here](https://github.com/SAP/service-fabrik-broker#installing-cloud-foundry)
+- You would need a functional Bosh Lite setup on your local system. Please refer instructions [here](https://github.com/cloudfoundry/service-fabrik-broker#installing-bosh-lite)
+- Working Cloud Foundry Installation on Bosh Lite. Please refer instructions [here](https://github.com/cloudfoundry/service-fabrik-broker#installing-cloud-foundry)
 
 ## Download and Installation
 
 Clone the repository for Service Fabrik Blueprint App
 
 ```
-git clone https://github.com/sap/service-fabrik-blueprint-app
+git clone https://github.com/cloudfoundry/service-fabrik-blueprint-app
 ```
 This would clone the repository in your current working directory.
 Then, run this code from the command line
@@ -44,7 +44,7 @@ The relating test file ```/test/admin.spec.js``` will only be executed if these 
 
 ## How to obtain support
 
-If you need any support, have any question or have found a bug, please report it in the [GitHub bug tracking system](https://github.com/sap/service-fabrik-backup-restore/issues). We shall get back to you.
+If you need any support, have any question or have found a bug, please report it in the [GitHub bug tracking system](https://github.com/cloudfoundry/service-fabrik-backup-restore/issues). We shall get back to you.
 
 ## LICENSE
 
