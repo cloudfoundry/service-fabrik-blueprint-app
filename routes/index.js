@@ -29,7 +29,7 @@ class BlueprintReportGenerator {
         reject: reject,
         timeoutObject: setTimeout(() => {
           this.reject(id, new Error('Timeout. The blueprint-service is not reachable most likely.'));
-        }, 10000)
+        }, 20000)
       };
 
       const mocha = new Mocha({
